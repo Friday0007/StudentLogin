@@ -1,0 +1,69 @@
+* {
+    font-family: Circular Std Black;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    height: 35rem;
+    align-items: center;
+}
+
+.sub-container {
+    border: 1px solid black;
+    padding: 24px; /* Changes needs to be done !*/
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    background-color: rgb(194, 194, 194);
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 30px;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+}
+
+.btn > input {
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+input {
+    border: 1px solid grey;
+}
+
+input[ type="submit" ], #labeltick {
+    cursor: pointer;
+}
+
+.input1, .input2, #checkBox {
+    margin-bottom: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.Loginguest > input{
+    background-color: black;
+    color: white;
+}
+
+.Login > input {
+    background-color: #24b2ff;
+}
+
+.Login > input:hover {
+    background-color: white;
+}
+
+.Loginguest input:hover {
+    background-color: white;
+    color: black;
+}

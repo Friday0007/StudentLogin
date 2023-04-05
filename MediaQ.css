@@ -1,0 +1,22 @@
+@media screen and (max-width: 900px) {
+    .image {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .form {
+        margin: 0px;
+    }
+    
+    .main-container {
+        height: 20rem;
+    }
+
+    * {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
